@@ -4,12 +4,15 @@
 > 文档链接：[github](https://github.com/mingzun09/Chunqiu-Detector-Problem-solution)
 
 ## 你尝试但过不掉的检测
-那么请开lssues并提供你的模块列表信息以及使用了哪些xp模块，我有时间的话会回复
+那么请开lssues并提供你的模块列表信息以及使用了哪些xp模块，我有时间的话会回复。
 并帮助
 
+# Looper fd图异常
+> 正在分析复现，待补充...
+
 # HMA或许存在
-> 疑似检测旧版Scene_Hide-eBPF行为
-> [分支项目/拉取更新重新构建模块](https://github.com/Andrea-lyz/Scene-Port-Hider-by-eBPF)
+> 疑似检测旧版使用Scene_Hide-eBPF模块行为
+> [分支项目/拉取更新重新构建模块并刷入](https://github.com/Andrea-lyz/Scene-Port-Hider-by-eBPF)
 
 # 存在模块修改春秋
 > 使用IsolPolicy模块后出现，关闭作用域或者卸载模块解决
@@ -23,7 +26,7 @@
 >Magisk......
 
 # fdinfo mnt 采样异常（c）
-> 复现不稳定，误报处理
+> 复现不稳定，误报处理（无视存在）
 
 # 内存异常
 > 清楚检测器数据后若还存在，那么请开lssues并提供你的模块列表信息以及使用了哪些xp模块，我有时间会研究的
