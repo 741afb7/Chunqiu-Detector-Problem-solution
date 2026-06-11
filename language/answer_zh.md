@@ -88,7 +88,7 @@
 
 > 25: 叶证书 SigAlg 与签发钥算法不符
 
-> 26: 证书 patch 标签与系统属性不一致（与安全补丁有关）（修改或者删除/data/adb/tricky_store/security_patch.txt尝试解决）
+> 26: 证书 patch 标签与系统属性不一致（与安全补丁有关）（[执行此sh](https://github.com/mingzun09/Chunqiu-Detector-Problem-solution/blob/main/File/Tampered%20Attestation%20Key(26)Pass.sh)尝试解决）
 
 > 27: USER_ID 出现在 teeEnforced
 
