@@ -44,7 +44,7 @@
 > 暂时未知的手段，自行尝试使用HMA-oss对检测器隐藏某些可能是风险的应用程序。
 
 # mountinfo
-> 通过两种手段获取出来的挂载视图不一样。可能存在隐瞒的问题,有时某服务处理不及时就会报awa（极早 mountinfo 快照 vs 后期对照）
+> 通过两种手段获取出来的挂载视图不一样。可能存在隐瞒的问题,有时某服务处理不及时就会报（极早 mountinfo 快照 vs 后期对照）
 > 小米设备通常在开机后系统高占用时，打开检测器会出现，此检测项
 
 # Drity Device(a)
@@ -118,7 +118,7 @@
 ## Property Modified（数字代表几处属性修改）
 > 原理是查属性区空洞，如果说有存在空洞的话，说明存在属性修改。
 
-> 隐藏被修改的属性可将shamiko模块中的[shamiko.sh](https://t.me/chunqiudetector/10259](https://github.com/mingzun09/Chunqiu-Detector-Problem-solution/blob/main/File/shamiko_Plus.sh)文件添加并移动到/data/adb/service.d/目录下并重启，尝试解决。
+> 隐藏被修改的属性可将shamiko模块中的[shamiko_Plus.sh](https://github.com/mingzun09/Chunqiu-Detector-Problem-solution/blob/main/File/shamiko_Plus.sh)文件添加并移动到/data/adb/service.d/目录下并重启，尝试解决。
 
 ## 环境存疑1（实验性检测）
 > 在HMA-OSS中对检测器开启黑名单模式隐藏后，若勾选了设置预设中的“输入法”选项后，此检测项就会出现？
@@ -228,7 +228,7 @@
 ## Suspicious Surroundings（b）
 > 路径/data/local/tmp 文件夹的inode值高于10000
 
-解决方案: 将设备恢复出厂设置 / 使用SUSFS对路径伪装inode值小于1000 / 尝试使用[过ssb脚本](https://github.com/YiJieqwq/Low-Inode-Swapper/releases)解决
+解决方案: 将设备恢复出厂设置 / 使用SUSFS对路径伪装inode值小于1000 / 尝试使用[Inode-Hijacker](https://github.com/YiJieqwq/Inode-Hijacker/releases)脚本解决
 
 
 ## Suspicious Surroundings（c）
