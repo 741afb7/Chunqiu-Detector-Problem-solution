@@ -224,7 +224,7 @@ Solution: Change group to shell.
 ## Suspicious Surroundings (b)
 > Path: `/data/local/tmp` folder's inode value > 10000.
 
-Solutions: Factory reset the device / Use SUSFS to spoof inode value < 1000 / Try using the [Inode-Hijacker](https://github.com/YiJieqwq/Inode-Hijacker) script to resolve.
+Solutions: Factory reset the device / Use SUSFS to spoof inode value < 1000 / Try using the [Inode-Hijacker](https://github.com/YiJieqwq/Inode-Hijacker/releases) script to resolve.
 
 ## Suspicious Surroundings (c)
 > `/data/local/tmp` — permissions modified (default is 771).
