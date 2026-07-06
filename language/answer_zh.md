@@ -7,8 +7,7 @@
 请开Issues并提供 你的模块列表信息+使用了哪些xp模块等详细修改 我有时间会回复/帮助。
 
 # Miscellaneous Check(12)
-> LSPosed泄露Zygisk检测点
-> 尝试卸载LSPosed/更换ReZygisk/等待模块更新
+> 尝试更新最新版LSPosed-it解决，或卸载模块，或者线刷双清
 
 # Looper fd图异常
 > 正在分析复现，待补充...
